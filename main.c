@@ -75,36 +75,37 @@ int main(void)
 
         do
         {
-            printf("Escoja su opción (0 para finalizar):\n");
+            printf("Escoja su opcion 0 para finalizar:\n");
             scanf("%d", &op);
 
-            switch (op)
+            if (op == 0)
             {
-            case 0:
                 // Finalizar el bucle si se ingresa 0.
                 break;
-            case 1:
+            }
+            else if (op == 1)
+            {
                 candidato1 += 1;
-                break;
-            case 2:
+            }
+            else if (op == 2)
+            {
                 candidato2 += 1;
-                break;
-            case 3:
+            }
+            else if (op == 3)
+            {
                 candidato3 += 1;
-
-                break;
-            case 4:
+            }
+            else if (op == 4)
+            {
                 candidato4 += 1;
-
-                break;
-            case 5:
+            }
+            else if (op == 5)
+            {
                 candidato5 += 1;
-
-                break;
-            default:
+            }
+            else
+            {
                 votosnulos += 1;
-
-                break;
             }
         } while (op != 0);
 
