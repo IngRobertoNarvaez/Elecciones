@@ -81,7 +81,7 @@ int main(void)
             switch (op)
             {
             case 0:
-                // Finalizar el bucle si se ingresa 0
+                // Finalizar el bucle si se ingresa 0.
                 break;
             case 1:
                 candidato1 += 1;
